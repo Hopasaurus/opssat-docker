@@ -7,10 +7,10 @@ This will allow you to build and run the tools with less reading and fiddling.
 I am still working some things out and which I will update as we go
 
 build docker image: 
-- 'sh build.sh'
+- `sh build.sh`
 
 run it:
-- 'sh startDocker.sh'
+- `sh startDocker.sh`
 
 That will put you in a shell, from there type `gpredict` to see if that will start... then attempt to follow the instructions from the gr-opssat repo
 
