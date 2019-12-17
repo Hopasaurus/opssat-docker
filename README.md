@@ -4,7 +4,18 @@ https://github.com/esa/gr-opssat
 
 This will allow you to build and run the tools with less reading and fiddling.
 
-I am still working some things out and which I will update as we go
+
+This sort of works, will clean it up a bit tomorrow.
+
+It boots up and loads most of the tools it takes a little tweaking to get it running.
+Need to figure out how to export the gpredict config without manually zipping it each time
+also will want to do the same for the receiver flowgraph
+
+
+
+
+
+
 
 build docker image: 
 - `sh build.sh`
