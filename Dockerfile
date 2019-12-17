@@ -30,7 +30,8 @@ run cd /root/gr-opssat/recordings && \
     7zr x osat_437.16M_200k_beacon_mode6.cf32.7z && \
     7zr x osat_437.16M_250k_beacon_realistic_mode6.cf32.7z
 
-run apt-get install -y xterm gr-osmosdr
-
-env DISPLAY=host.docker.internal:0
+run apt-get install -y xterm gr-osmosdr x11vnc xvfb fluxbox
+run mkdir ~/.vnc && x11vnc -storepasswd 1234 ~/.vnc/passwd
+copy assets/boot.sh /root/boot.sh
+#env DISPLAY=host.docker.internal:0
 
