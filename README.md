@@ -11,10 +11,7 @@ It boots up and loads most of the tools it takes a little tweaking to get it run
 Need to figure out how to export the gpredict config without manually zipping it each time
 also will want to do the same for the receiver flowgraph
 
-
-
-
-
+It sets up a vnc server, use a vnc viewer to localhost:5901 and use password '1234'
 
 
 build docker image: 
