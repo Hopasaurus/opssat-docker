@@ -5,7 +5,7 @@ export DISPLAY=:20
 xterm &
 gpredict &
 gnuradio-companion &
-python3 gr-opssat/app/desktop/main.py &
+python3 /root/gr-opssat/apps/desktop/main.py &
 fluxbox 
 
 
